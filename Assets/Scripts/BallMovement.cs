@@ -1,7 +1,7 @@
 using UnityEngine;
 using GG.Infrastructure.Utils.Swipe;
 using DG.Tweening;
-using UnityEngine.Physics;
+using System.Collections.Generic;
 
 
 public class BallMovement : MonoBehaviour
