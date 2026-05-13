@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
 public class LevelManager : MonoBehaviour
 {
     [Header("Level Texture")]
     [SerializeField] private Texture2D levelTexture;
+
+    [Header("Ball and Road paint Color")]
+    public Color paintColor;
 
     [Header("Tiles Prefabs")]
     [SerializeField] private GameObject prefabWallTile;
